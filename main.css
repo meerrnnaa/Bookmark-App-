@@ -1,0 +1,86 @@
+
+        body {
+            font-family: 'Afacad', sans-serif;
+            font-size: 20px;
+
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            background-image: url(IMG_2823.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        td:last-child button {
+            margin-right: 5px;
+        }
+
+        button.visit {
+            background-color: #3498db;
+        }
+
+        button.delete {
+            background-color: #e74c3c;
+        }
+        span{
+            font-family: 'Dancing Script', cursive;
+            color: #45a049;
+            font-size: 70px;
+        }
+  
